@@ -1,6 +1,6 @@
 # world3d
 
-This is a simply program demonstrates work with OpenGL library.
+This is a simple program demonstrates work with OpenGL library.
 
 ![][preview_image]
 
@@ -10,9 +10,13 @@ The source code is published under BSD 2-clause, the license is available [here]
 
 ## Supported systems
 * GNU/Linux
+* macOS
 * Windows 7 and above
 
+## Third-party
+* GLM ([MIT License](https://github.com/g-truc/glm/blob/master/copying.txt))
+* freeglut ([MIT License](http://freeglut.sourceforge.net/))
 
 [//]: # (LINKS)
 [license]: LICENSE
-[preview_image]: https://github.com/movhex/world3d/blob/master/docs/assets/preview.png "Preview Image"
+[preview_image]: https://github.com/movhex/world3d/blob/master/docs/images/preview.png "Preview Image"
