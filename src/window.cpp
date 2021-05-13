@@ -1,5 +1,9 @@
 #include <GL/freeglut.h>
 
+extern "C" {
+#include <unistd.h>
+}
+
 #include "window.h"
 
 
@@ -99,8 +103,8 @@ void Window::specKeyHandler(int key, int x, int y) {
 void Window::keyboardHandler(uint8_t key, int x, int y) {
     switch (key) {
     case 27: // ESC KEY
-        glutLeaveMainLoop();
-        break;
+        // glutLeaveMainLoop();
+        exit(0);
     }
     m_scene->keyboardHandler(key, x, y);
 }

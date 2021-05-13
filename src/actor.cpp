@@ -1,5 +1,4 @@
 #include <glm/gtx/rotate_vector.hpp>
-#include <cstdio>
 
 #include "actor.h"
 

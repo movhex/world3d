@@ -1,7 +1,8 @@
 #include <cstdio>
 #include <cstdint>
 #include <cstddef>
-#if (_WIN32)
+
+#ifdef _WIN32
 #include <windows.h>
 #endif
 
@@ -16,7 +17,7 @@ int main(void) {
 
     window.assignScene(&scene1);
 
-#if (_WIN32)
+#ifdef _WIN32
     HWND hw = GetConsoleWindow();
     ShowWindow(hw, SW_HIDE);
 #endif
